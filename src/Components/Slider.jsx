@@ -1,4 +1,4 @@
-import "../app.css";
+import "../App.css";
 import { HashLink as Link } from "react-router-hash-link";
 import img from "../assets/lexilaablogo.png";
 import { tog } from "../State/context";
