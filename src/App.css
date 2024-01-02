@@ -309,7 +309,7 @@ body {
     padding-left: 25px;
     padding-right: 25px;
     border-radius: 25px;
-    font-size: 20px;
+    font-size: 16px;
     cursor: pointer;
   }
   .hero-consult{
@@ -322,7 +322,7 @@ body {
     padding-left: 25px;
     padding-right: 25px;
     border-radius: 25px;
-    font-size: 20px;
+    font-size: 16px;
     cursor: pointer;
     margin-top: 10px;
   }
