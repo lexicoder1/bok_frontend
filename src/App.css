@@ -277,7 +277,7 @@ body {
 }
 @media screen and (max-width: 380px) {
   .hero-container {
-    height:100vh;
+    height:102vh;
     
   }
 
@@ -303,20 +303,18 @@ body {
   }
 
   .hero-con{
-    background-color: rgb(102, 201, 231);
+
     padding: 15px;
     width: 100px;
     padding-left: 25px;
     padding-right: 25px;
-    border-radius: 25px;
+ 
     font-size: 16px;
-    cursor: pointer;
+   
   }
   .hero-consult{
     /* background-color: rgb(102, 201, 231); */
-    border: 2px;
-    border-style: solid;
-    border-color: rgb(102, 201, 231) ;
+   
     padding: 15px;
     width: 175px;
     padding-left: 25px;
