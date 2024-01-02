@@ -90,6 +90,11 @@ body {
   /* margin-right: 12px; */
   
 }
+@media screen and (max-width: 380px) {
+  .header-right{
+    font-size: 16px
+  }
+}
 
 @media screen and (max-width: 980px) {
   .header-flex{
@@ -272,7 +277,7 @@ body {
 }
 @media screen and (max-width: 380px) {
   .hero-container {
-    height: 87vh;
+    height:90vh;
     
   }
 
