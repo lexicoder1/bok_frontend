@@ -270,6 +270,7 @@ body {
 @media screen and (max-width: 410px) {
   .hero-container {
     padding-top: 20px;
+    padding-bottom: 50px ;
   }
   .hero-left {
     font-size: 1em;
@@ -280,7 +281,8 @@ body {
     align-items: center;
   }
   .hero-consult {
-  
+    width: 180px;
+    margin-top: 10px;
     font-size: 18px;
   }
   .hero-con {
