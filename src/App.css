@@ -345,3 +345,89 @@ body {
   font-size: 30px;
   color: rgb(17, 67, 110);
 }
+
+/* icon style */
+.icons-container{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.icons-container-i{
+  display: flex;
+  justify-content: space-around;
+}
+.icons-container-ii{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.icon-img{
+  width: 200px;
+
+ 
+}
+
+.icon-img1{
+  width: 200px;
+  height: 50px; 
+}
+
+@media screen and (max-width: 727px) {
+  .icon-img{
+    width: 150px;
+  
+   
+  }
+  
+  .icon-img1{
+    width: 150px;
+    height: 30px; 
+  }
+  
+
+}
+
+@media screen and (max-width: 544px) {
+  .icons-container{
+    display: flex;
+    justify-content: space-around;
+  }
+  .icons-container-i{
+   flex-direction: column;
+   
+  }
+  .icons-container-ii{
+  flex-direction: column;
+  }
+
+  .icon-img{
+   margin-top: 20px;
+   /* margin-bottom: 15px;  */
+   
+  }
+  
+  .icon-img1{
+    margin-top: 20px;
+  /* margin-bottom: 15px;  */
+  }
+  
+}
+
+@media screen and (max-width: 411px) {
+  .icon-img{
+    width: 100px;
+    margin-top: 15px;
+    
+   }
+   
+   .icon-img1{
+    width: 100px;
+    margin-top: 15px;
+   }
+
+   .icons-container{
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+   
+
+}
