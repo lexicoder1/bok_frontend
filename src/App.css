@@ -498,11 +498,14 @@ background-color: rgb(102, 201, 231);
   .web3-container-i{
   flex-direction: column;
   align-items: center;
-    padding-top: 50px;
+  justify-content: space-between;
+    padding-top:0px;
+    /* padding-bottom:25px; */
   
   }
 
   .web3-container-i-ii{
+    margin-top:25px;
 width: 90%;
   }
   .web3-container-i-i{
