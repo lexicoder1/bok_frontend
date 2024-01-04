@@ -510,7 +510,7 @@ width: 90%;
 
 @media screen and (max-width: 495px) {
   .web3-container-i-i>p{
-    font-size: 13px;
+    font-size: 15px;
   }
   .web3-container-i-i>h1{
   font-size: 32px;
@@ -522,10 +522,10 @@ width: 90%;
   }
  
   .web3-container-i-ii-ii>p{
-    font-size: 13px;
+    font-size: 15px;
   }
   .web3-container-i-ii-ii>h1{
-    font-size: 30px;
+    font-size: 25px;
   }
   
   
