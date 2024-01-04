@@ -507,3 +507,29 @@ width: 90%;
       }
     
 }
+
+@media screen and (max-width: 495px) {
+  .web3-container-i-i>p{
+    font-size: 15px;
+  }
+  .web3-container-i-i>h1{
+  font-size: 35px;
+  margin-top: 0px;
+  }
+  .web3-container-i-i>h3{
+    color: rgb(102, 201, 231);
+    margin-bottom: 10px;
+    
+  }
+  
+  
+  .web3-container-i-i>button{
+  padding: 15px;
+  border-radius: 30px;
+  cursor: pointer;
+  
+  border: none;
+  background-color: rgb(102, 201, 231);
+  }
+  
+}
