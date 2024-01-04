@@ -6,7 +6,7 @@ import img2 from "../assets/polygon.svg";
 import img4 from "../assets/solana.svg";
 import img6 from "../assets/aws.svg";
 import img7 from "../assets/digitalocean.svg";
-import img5 from "../assets/binance.svg";
+
 
 
 
