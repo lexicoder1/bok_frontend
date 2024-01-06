@@ -5,9 +5,10 @@ import Hero from "./Components/Hero"
 import Slider from "./Components/Slider"
 import Icons from "./Components/Icons"
 import Web3 from "./Components/Web3"
+import BusinessValues from "./Components/BusinessValues"
 
 
-// import  useTest from "./Hooks/testhook"
+
 
 
 
@@ -23,6 +24,7 @@ function App() {
    <Slider/>
    <Icons/>
    <Web3/>
+   <BusinessValues/>
     </>
    
   
