@@ -16,7 +16,7 @@ function BusinessValues() {
           </p>
         </div>
         <div className="BusinessValues-container-ii">
-          <div className="BusinessValues-container-ii-i"> <IoIosCheckboxOutline /> <p>Transparency</p></div>
+          <div className="BusinessValues-container-ii-i"> <IoIosCheckboxOutline className="BusinessValues-container-ii-i-IoIosCheckboxOutline"/> <p>Transparency</p></div>
           <div className="BusinessValues-container-ii-i"> <IoIosCheckboxOutline /> <p>Security</p></div>
           <div className="BusinessValues-container-ii-i"> <IoIosCheckboxOutline /> <p>Efficiency</p></div>
           <div className="BusinessValues-container-ii-i"> <IoIosCheckboxOutline /> <p>Honesty</p></div>
