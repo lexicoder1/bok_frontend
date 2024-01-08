@@ -4,6 +4,7 @@ import { IoIosCheckboxOutline } from "react-icons/io";
 import img from "../assets/team.jpg";
 
 function BusinessValues() {
+ 
   return (
     <>
       <div className="BusinessValues-container">
@@ -54,6 +55,8 @@ function BusinessValues() {
          
         </div> */}
       </div>
+     
+
     </>
   );
 }

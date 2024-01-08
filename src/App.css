@@ -668,3 +668,39 @@ border-radius: 20px;
   }
 }
 
+/* review style */
+.Review-container{
+  background-color: rgb(226, 243, 250);
+ padding-bottom: 30px;
+ padding-top: 30px;
+ color: rgb(17, 67, 110);
+}
+
+.Review-container-i{
+ margin: 0px;
+ width: 80%;
+ margin: auto;
+ /* background-color: aqua; */
+  /* background-color: blue; */
+}
+
+.Review-container-i-ii>h3{
+  margin: 0px;
+}
+
+.Review-container-i-ii-i>img{
+  width: 100px;
+  border-radius: 50%;
+}
+.Review-container-i-ii-i{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 250px;
+}
+.Review-container-i-ii-i-ii>h1{
+margin: 0px;
+}
+.Review-container-i-ii-i-ii>p{
+  margin: 5px;
+  }

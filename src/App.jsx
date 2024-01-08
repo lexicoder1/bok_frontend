@@ -6,6 +6,7 @@ import Slider from "./Components/Slider"
 import Icons from "./Components/Icons"
 import Web3 from "./Components/Web3"
 import BusinessValues from "./Components/BusinessValues"
+import ReviewSlider from './Components/ReviewSlider'
 
 
 
@@ -25,6 +26,7 @@ function App() {
    <Icons/>
    <Web3/>
    <BusinessValues/>
+   <ReviewSlider/>
     </>
    
   
