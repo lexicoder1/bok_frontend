@@ -789,8 +789,9 @@ font-size: 15px;
     }
    .footer-right-i-p{
     display: block;
-    font-size: 12px;
+    font-size: 9px;
     margin-top: 30px;
+    color: rgb(198, 197, 197);
    }
   }
 
