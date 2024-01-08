@@ -704,3 +704,22 @@ margin: 0px;
 .Review-container-i-ii-i-ii>p{
   margin: 5px;
   }
+
+  @media screen and (max-width: 390px) {
+ .Review-container-i>h1{
+    font-size: 25px;
+ }
+    .Review-container-i-ii>h3{
+font-size: 15px;
+    }
+    .Review-container-i-ii-i-ii>h1{
+      font-size: 20px;
+    }
+    .Review-container-i-ii-i-ii>p{
+      font-size: 10px;
+    }
+    .Review-container-i-ii-i{
+    
+      width: 200px;
+    }
+  }
