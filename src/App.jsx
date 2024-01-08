@@ -7,6 +7,7 @@ import Icons from "./Components/Icons"
 import Web3 from "./Components/Web3"
 import BusinessValues from "./Components/BusinessValues"
 import ReviewSlider from './Components/ReviewSlider'
+import Software from './Components/Software'
 
 
 
@@ -26,7 +27,9 @@ function App() {
    <Icons/>
    <Web3/>
    <BusinessValues/>
+   <Software/>
    <ReviewSlider/>
+   
     </>
    
   
