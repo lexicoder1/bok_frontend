@@ -8,6 +8,7 @@ import Web3 from "./Components/Web3"
 import BusinessValues from "./Components/BusinessValues"
 import ReviewSlider from './Components/ReviewSlider'
 import Software from './Components/Software'
+import Footer from './Components/Footer'
 
 
 
@@ -29,7 +30,7 @@ function App() {
    <BusinessValues/>
    <Software/>
    <ReviewSlider/>
-   
+   <Footer></Footer>
     </>
    
   
