@@ -209,7 +209,7 @@ body {
 }
 .hero-right {
   width: 27%;
-  height: 400px;
+  height: 300px;
   margin-top: 40px;
 }
 
@@ -230,12 +230,13 @@ body {
 
   .hero-right {
     width: 30%;
+    
   }
   .hero-left {
     text-align: center;
 
     width: 90%;
-    padding-top: 25px;
+    /* padding-top: 25px; */
   }
 }
 
@@ -794,6 +795,14 @@ font-size: 15px;
     color: rgb(198, 197, 197);
    }
   }
+
+  /* audits style */
+  .Audits-contain{
+    background-color: rgb(226, 243, 250);
+    color: rgb(17, 67, 110);
+    padding-bottom:15px ;
+    
+  }
 .Audits-container{
   background-color: rgb(226, 243, 250);
   color: rgb(17, 67, 110);
@@ -826,6 +835,67 @@ font-size: 15px;
   border-color:rgb(102, 201, 231) ;
   margin-left: 10px;
   background-color: rgb(226, 243, 250);
+}
+
+.audits-achivements{
+  display: flex;
+  justify-content: space-evenly;
+}
+.audits-achivements-i{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+.audits-achivements-i>p{
+  width: 200px;
+  text-align: center;
+}
+@media screen and (max-width:  1000px) {
+    .Audits-left{
+      width: 80%;
+      text-align: center;
+    }
+   .Audits-left-img{
+    display: none;
+   }
+   .Audits-container{
+  
+   
+    justify-content: center;
+    
+  }
+   
+}
+@media screen and (max-width:  818px) {
+  .audits-achivements-i{
+    display: flex;
+    flex-direction: row;
+  
+   }
+   .audits-achivements{
+  
+    flex-direction: column;
+    align-items: center;
+    margin-left: 30px;
+    /* justify-content: space-evenly; */
+  }
+   
+   
+}
+
+@media screen and (max-width: 974px) {
+  .Audits-left{
+    margin-top: 20px;
+  }
+  .Audits-left>h1{
+font-size: 32px;
+  }
+  .Audits-left-button-i{
+    margin-top: 12px;
+  }
+  .Audits-left-button-ii{
+    margin-top: 12px;
+  }
 }
 
  

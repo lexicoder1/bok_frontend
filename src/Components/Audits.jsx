@@ -5,6 +5,7 @@ function Audits() {
   
   return (
     <>
+    <div className="Audits-contain">
    <div className="Audits-container">
   <div className="Audits-left">
 <h1>Smart Contracts Auditing Services, DeFi Safety Audits</h1>
@@ -15,10 +16,33 @@ function Audits() {
 </div>
   </div>
   <div>
-  <img src={img} alt="" className="" />
+  <img src={img} alt="" className="Audits-left-img" />
   </div>
+
    </div>
-    
+    <div className="audits-achivements">
+      <div className="audits-achivements-i" >
+        <h1>100+</h1>
+        <p>Projects Secured
+By QuillAudits</p>
+      </div>
+      <div className="audits-achivements-i" >
+        <h1>100+</h1>
+        <p>Projects Secured
+By QuillAudits</p>
+      </div>
+      <div className="audits-achivements-i" >
+        <h1>100+</h1>
+        <p>Projects Secured
+By QuillAudits</p>
+      </div>
+      <div className="audits-achivements-i">
+        <h1>100+</h1>
+        <p>Projects Secured
+By QuillAudits</p>
+      </div>
+    </div>
+    </div>
     </>
   );
 }
