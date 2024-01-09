@@ -58,8 +58,8 @@ function Header() {
             Software
           </Link> */}
            <div className="header-web3-content-container">
-            <Link to="" smooth className="header-center-links">
-              Security
+            <Link to="/Audits" smooth className="header-center-links">
+              Audits
             </Link>
             {/* <div className="header-web3-content-touch">
             <div className="header-web3-content">

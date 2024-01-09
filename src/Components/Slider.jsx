@@ -27,8 +27,8 @@ function Slider() {
           Software
         </Link>
 
-        <Link to="" smooth className="slider-links">
-          Security
+        <Link to="/Audits" smooth className="slider-links">
+          Audits
         </Link>
 
         <Link to="" smooth className="slider-links">

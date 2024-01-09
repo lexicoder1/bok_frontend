@@ -1,5 +1,5 @@
 import "../App.css";
-import img from "../assets/hero-img1.jpg";
+import img from "../assets/hero-img1.png";
 
 
 function Hero() {
@@ -8,8 +8,8 @@ function Hero() {
     <div className="hero-body">
       <div className="hero-container">
         <div className="hero-left">
-        <h1>Transform your business with our innovative web3 and AI software development services.
-Join the future, today!</h1>
+        <h1>Transform Your Business With Our Innovative Web3 And AI Software Development Services.
+Join The Future, Today!</h1>
 <div className="hero-con-container">
 <div className="hero-con"> Contact Us</div>
 <div className="hero-consult"> Consult Us For Free</div>

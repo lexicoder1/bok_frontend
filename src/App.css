@@ -208,8 +208,8 @@ body {
   display: flex;
 }
 .hero-right {
-  width: 20%;
-  height: 300px;
+  width: 27%;
+  height: 400px;
   margin-top: 40px;
 }
 
@@ -794,5 +794,38 @@ font-size: 15px;
     color: rgb(198, 197, 197);
    }
   }
+.Audits-container{
+  background-color: rgb(226, 243, 250);
+  color: rgb(17, 67, 110);
+  /* padding: 50px; */
+  
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.Audits-left{
+  width: 40%;
+  margin-top: -20px;
+}
+.Audits-left>h1{
+  font-size: 48px;
+}
+.Audits-left>p{
+  font-size: 20px;
+}
+.Audits-left-button-i{
+  padding: 15px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(102, 201, 231);
+}
+.Audits-left-button-ii{
+  padding: 15px;
+  border-radius: 10px;
+  border: solid;
+  border-color:rgb(102, 201, 231) ;
+  margin-left: 10px;
+  background-color: rgb(226, 243, 250);
+}
 
  
