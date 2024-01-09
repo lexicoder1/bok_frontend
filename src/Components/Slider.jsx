@@ -15,30 +15,30 @@ function Slider() {
           <img src={img} alt="" className="left-img" />
         </div>
         <IoIosClose onClick={hideToggle} className="close-icon" />
-        <Link to="" smooth className="slider-links">
+        <Link to="/" smooth className="slider-links" onClick={hideToggle}>
           Home
         </Link>
 
-        <Link to="" smooth className="slider-links">
+        <Link to="" smooth className="slider-links" onClick={hideToggle}>
           Web3
         </Link>
 
-        <Link to="" smooth className="slider-links">
+        <Link to="" smooth className="slider-links" onClick={hideToggle}>
           Software
         </Link>
 
-        <Link to="/Audits" smooth className="slider-links">
+        <Link to="/Audits" smooth className="slider-links" onClick={hideToggle}>
           Audits
         </Link>
 
-        <Link to="" smooth className="slider-links">
+        <Link to="" smooth className="slider-links" onClick={hideToggle}>
           Products
         </Link>
 
-        <Link to="" smooth className="slider-links">
+        <Link to="" smooth className="slider-links" onClick={hideToggle}>
           Trainings
         </Link>
-        <Link to="" smooth className="slider-links">
+        <Link to="" smooth className="slider-links" onClick={hideToggle}>
           Portfolio
         </Link>
       </div>
