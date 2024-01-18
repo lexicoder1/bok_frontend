@@ -189,6 +189,8 @@ body {
   border-radius: 25px;
   font-size: 20px;
   cursor: pointer;
+  text-decoration: none;
+  color: rgb(17, 67, 110);
 }
 .hero-consult {
   /* background-color: rgb(102, 201, 231); */
@@ -203,6 +205,8 @@ body {
   font-size: 20px;
   cursor: pointer;
   margin-left: 10px;
+  text-decoration: none;
+  color: rgb(17, 67, 110);
 }
 .hero-con-container {
   display: flex;
@@ -438,33 +442,45 @@ body {
 /* web3 style */
 .web3-container{
  background-color:#f5f7f8;
- color: rgb(17, 67, 110);
- padding-bottom: 70px;
+ color: rgb(53, 53, 53);
+ padding-bottom: 60px;
+ padding-top: 10px;
  font-family: Thicccboi, sans-serif;
+}
+.web3-container-i-i>h3{
+color: rgb(17, 67, 110); 
 }
 .web3-container-i{
   display: flex;
   justify-content: space-around;
-  padding-top: 50px;
+  align-items: center;
+  padding-top: 20px;
 
 }
+.test{
+width: 43%;
+}
 .web3-container-i-ii{
-  width: 40%;
+  width: 43%;
   background-color: white;
-  border-radius: 25px;
+  border-radius: 15px;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.test-i{
+  width: 100%;
 }
 .web3-container-i-i{
-  width: 40%;
+  width: 43%;
   /* background-color: white; */
 }
 .web3-container-i-ii-i{
-  width: 50px;
-  height: 50px;
+  width: 70px;
+  height: 70px;
+   color: rgb(17, 67, 110);
 }
 .web3-container-i-ii-ii{
   width: 70%;
@@ -487,7 +503,9 @@ margin-top: 0px;
 
 
 .web3-container-i-i>button{
-padding: 15px;
+padding: 5px;
+padding-left: 20px;
+padding-right: 20px;
 border-radius: 30px;
 cursor: pointer;
 
@@ -898,4 +916,47 @@ font-size: 32px;
   }
 }
 
- 
+/* contactus style */
+ .contactUs-container{
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(226, 243, 250);
+ }
+ .contactUs-container-i{
+width: 30%;
+ }
+ .contactUs-container-ii{
+  width: 50%;
+  background-color: #ceeaf6;
+  color: rgb(17, 67, 110);
+  padding-top: 20px; 
+  padding-bottom: 20px;
+   }
+
+   .contactUs-input{
+    width: 250px;
+    height: 50px;
+    padding-left: 10px;
+    border: none;
+   }
+.contactUs-container-ii-i{
+display: flex;
+justify-content: space-around;
+}
+
+.contactUs-message{
+  width: 80%;
+  height: 200px;
+  border: none;
+  border-radius: 10px;
+  padding:10px ;
+  
+}
+.contactUs-container-message{
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+}
+.contactUs-container-message>h2{
+  text-align:;
+} 

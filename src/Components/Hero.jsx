@@ -1,6 +1,6 @@
 import "../App.css";
 import img from "../assets/hero-img1.png";
-
+import { HashLink as Link } from "react-router-hash-link";
 
 function Hero() {
   return (
@@ -11,8 +11,9 @@ function Hero() {
         <h1>Transform Your Business With Our Innovative Web3 And AI Software Development Services.
 Join The Future, Today!</h1>
 <div className="hero-con-container">
-<div className="hero-con"> Contact Us</div>
-<div className="hero-consult"> Consult Us For Free</div>
+ <Link to="/Contacts" smooth className="hero-con">Contact Us</Link>
+ <Link to="/Contacts" smooth className="hero-consult">Consult Us For Free</Link>
+{/* <div className="hero-consult"> Consult Us For Free</div> */}
 </div>
 </div>
       <div className="hero-right">

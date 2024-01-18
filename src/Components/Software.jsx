@@ -11,7 +11,7 @@ function Software() {
         <h3>OUR SERVICES</h3>
         <h1>Our Core Web3 Development Services</h1>
         <p>We offer advanced smart contract development services that enable companies to achieve business automation</p>
-        <button>Get Quotes</button>
+        <button><h3>Get Quotes</h3></button>
         </div>
         <div className="web3-container-i-ii">
         <FaFileContract className="web3-container-i-ii-i"/>
