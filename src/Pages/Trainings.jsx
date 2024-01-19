@@ -8,6 +8,7 @@ function Trainings() {
     <>
    <Training></Training>
    <Slider></Slider>
+   l
     </>
   );
 }
