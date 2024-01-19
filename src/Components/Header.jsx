@@ -81,7 +81,7 @@ function Header() {
             <Link to="" smooth className="header-center-links">
               Products
             </Link>
-            <div className="header-web3-content-touch">
+            {/* <div className="header-web3-content-touch">
             <div className="header-web3-content">
               
                
@@ -90,12 +90,12 @@ function Header() {
               </Link>
         
             </div>
-            </div>
+            </div> */}
           </div>
           {/* <Link to="" smooth className="header-center-links">
             Products
           </Link> */}
-          <Link to="" smooth className="header-center-links">
+          <Link to="/Trainings" smooth className="header-center-links">
             Trainings
           </Link>
           <Link to="" smooth className="header-center-links">
