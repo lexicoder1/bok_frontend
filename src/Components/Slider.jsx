@@ -35,7 +35,7 @@ function Slider() {
           Products
         </Link>
 
-        <Link to="" smooth className="slider-links" onClick={hideToggle}>
+        <Link to="/Trainings" smooth className="slider-links" onClick={hideToggle}>
           Trainings
         </Link>
         <Link to="" smooth className="slider-links" onClick={hideToggle}>
