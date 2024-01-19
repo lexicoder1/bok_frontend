@@ -54,17 +54,18 @@ function ContactUs() {
                 className="contactUs-input"
               />
             </div>
+            
           </div>
-          <h2>message</h2>
           
           <div className="contactUs-container-message" >
-         
+          <h2>Message</h2>
           
 <textarea placeholder="type your message here" className="contactUs-message" >
 
 </textarea>
         
           </div>
+          
         </div>
         
       </div>
