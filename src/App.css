@@ -1013,6 +1013,16 @@ justify-content: space-around;
 }
 
 @media screen and (max-width: 500px) {
+   .contactUs-container-ii{
+    width: 80%;
+ 
+     }
+     .contactUs-container-i{
+      width: 90%;
+      /* padding-bottom: 10px; */
+       }
+
+     
   .contactUs-container{
    
     padding-top: 0px;
