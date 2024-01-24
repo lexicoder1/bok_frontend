@@ -5,6 +5,7 @@ export const tog = createContext();
 function Context({ children }) {
   const [toggle, settoggle] = useState("hide");
   const [sliderbg, setsliderbg] = useState("");
+  const [firstel, firstels] = useState(null);
 
   let refOne = useRef(null);
   let refTwo = useRef(null);
@@ -36,7 +37,7 @@ function Context({ children }) {
   };
 
   return (
-    <tog.Provider value={{ toggle, handleToggle, hideToggle }}>
+    <tog.Provider value={{ toggle, handleToggle, hideToggle ,firstel, firstels}}>
       {children}
     </tog.Provider>
   );
