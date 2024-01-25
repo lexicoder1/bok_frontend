@@ -127,6 +127,7 @@ p{
 
 .navbar {
   display: none;
+  z-index: 2;
   position: fixed;
   left: 0;
   top: 0;
@@ -963,4 +964,52 @@ height: 100vw;
   .footer{
       font-size: 3vw;
   }}
+
+  @media(max-width:416px ){
+    main{
+      margin-top: 50px;
+    }
+  }
+
+  .slider{
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+    display: none;
+    flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+  }
+  .slider>a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #3f3f3f;
+    margin-top: 20px;
+  }
+
+  .show {
+    transform: translateX(0);
+    margin-left: 0;
+    
+    
+  }
+  
+  .hide {
+    /* transform: translateX(200%); */
+    margin-left: -1000px;
+    
+  
+  }
+
+  @media(max-width:600px ){
+    .slider{
+      display: flex;
+    }
+  }
 

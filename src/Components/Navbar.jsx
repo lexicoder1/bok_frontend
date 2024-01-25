@@ -1,14 +1,18 @@
 import "../App.css";
 import img from "../assets/Coin-Gif.gif";
-
+import {tog} from "../State/context";
+import { useContext } from "react";
 function Audits() {
+    const { toggle,hideToggle, handleToggle, refOne} =useContext(tog);
   return (
     <>
       <div class="navbar">
         <div class="container">
           <div class="navbar__wrap">
             <div class="hamb">
-              <div class="hamb__field" id="hamb">
+            
+           
+              <div class={`hamb__field ${toggle==="show"?"active":""}`} id="hamb" onClick={toggle==="show"?hideToggle:handleToggle} ref={refOne}>
                 <span class="bar"></span> <span class="bar"></span>
                 <span class="bar"></span>
               </div>
