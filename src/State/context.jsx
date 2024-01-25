@@ -16,7 +16,7 @@ let refOne=useRef(null)
 let refTwo=useRef(null)
 useEffect(() => {
 
-  document.addEventListener("click",handleallelement);
+//   document.addEventListener("click",handleallelement);
   if(toggle==="show"){
     document.body.style.overflow="hidden"
 }else if(toggle==="hide"){
@@ -24,14 +24,14 @@ useEffect(() => {
 }
 });
 
-const handleallelement = (e)=>{
+// const handleallelement = (e)=>{
 
-  if(!refOne.current.contains(e.target)&&!refTwo.current.contains(e.target)){
-    settoggle("hide")
-    setsliderbg('')
+//   if(!refOne.current.contains(e.target)&&!refTwo.current.contains(e.target)){
+//     settoggle("hide")
+//     setsliderbg('')
    
-  }
-} 
+//   }
+// } 
 
 
 const handleToggle = ()=>{

@@ -6,16 +6,22 @@ function Audits() {
     const { toggle,hideToggle, handleToggle, refOne} =useContext(tog);
   return (
     <>
-      <div className="navbar">
+    {/* <div className="navbar-container">
+    <div className={`hamb__field ${toggle==="show"?"active":""}`} id="hamb" onClick={toggle==="show"?hideToggle:handleToggle} ref={refOne}>
+                <span className="bar"></span> <span className="bar"></span>
+                <span className="bar"></span>
+              </div>
+    <a href="#" className="logo" id="logo">
+              <img src={img} alt="" />
+            </a>
+    </div> */}
+      {/* <div className="navbar">
         <div className="container">
           <div className="navbar__wrap">
             <div className="hamb">
             
            
-              <div className={`hamb__field ${toggle==="show"?"active":""}`} id="hamb" onClick={toggle==="show"?hideToggle:handleToggle} ref={refOne}>
-                <span className="bar"></span> <span className="bar"></span>
-                <span className="bar"></span>
-              </div>
+              
             </div>
             <a href="#" className="logo" id="logo">
               <img src={img} alt="" />
@@ -40,7 +46,7 @@ function Audits() {
           </div>
         </div>
       </div>
-      <div className="popup" id="popup"></div>
+      <div className="popup" id="popup"></div> */}
     </>
   );
 }
