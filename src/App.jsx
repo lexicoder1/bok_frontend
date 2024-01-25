@@ -11,11 +11,11 @@ function App() {
     <>
    <Header></Header>
    <Navbar></Navbar>
- 
+   <Navbar2></Navbar2>
    <Main></Main>
    <Footer></Footer>
   
-   <Navbar2></Navbar2>
+   
    
     </>
   );

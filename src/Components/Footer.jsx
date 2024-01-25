@@ -9,8 +9,8 @@ function Audits() {
   return (
     <>
     
-    <span class="social">
-        <span class="so">
+    <span className="social">
+        <span className="so">
           {" "}
           <a href="http://twitter.com/long_live_tuna">
             <img src={img6} alt="" />
@@ -21,7 +21,7 @@ function Audits() {
             </p>
           </a>
         </span>
-        <span class="so">
+        <span className="so">
           <a href="http://t.me/TunaSolana">
             <img src={img7} alt="" />
             <p>
@@ -29,7 +29,7 @@ function Audits() {
             </p>
           </a>
         </span>
-        <span class="so">
+        <span className="so">
           <a href="mailto:Tunaonsol@gmail.com">
             <img src={img8} alt="" />
             <p>
@@ -38,7 +38,7 @@ function Audits() {
           </a>
         </span>
       </span>
-      <span class="footer">
+      <span className="footer">
         <p>longlivetuna.xyz © 2024 Copyright All Rights Reserved</p>
       </span>
       

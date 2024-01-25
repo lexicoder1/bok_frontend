@@ -14,10 +14,10 @@ function Audits() {
   return (
     <>
       <main>
-        <span class="info">
-          <span class="text_info">
+        <span className="info">
+          <span className="text_info">
             <h2>
-              <span class="gradient">
+              <span className="gradient">
                 Welcome to Tuna, we are a community owned zero tax meme coin.
               </span>{" "}
               $TUNA
@@ -34,7 +34,7 @@ function Audits() {
               <br />
               <br />
             </p>
-            <span class="btn_info">
+            <span className="btn_info">
               <button style={{background: "white" ,color: "black" ,border: "3px solid #8b00ff"}}>
                 BE ONE OF US
               </button>
@@ -49,21 +49,21 @@ function Audits() {
               </button>
             </span>
           </span>
-          <span class="img_info">
+          <span className="img_info">
             <img src={img2} alt="" />
           </span>
         </span>
         {/* </span> */}
         <p id="contract"></p>
-        <div class="contract">
+        <div className="contract">
           <h2>
-            <span class="gradient">$TUNA</span>&nbsp;Exciting Solana MemeCoin!
+            <span className="gradient">$TUNA</span>&nbsp;Exciting Solana MemeCoin!
           </h2>
           <p>
             <span style={{color: "#ff21e1"}}>Contract:</span>{" "}
             BVFVL6rriPSCT9H5BuH3te56kznEjxXUqKRqaAGqjpAx
           </p>
-          <span class="info_contract">
+          <span className="info_contract">
             <span>
               <p style={{color: "#ff21e1"}}>TAX</p>
               <p style={{color: "white"}}>0%</p>
@@ -79,10 +79,10 @@ function Audits() {
           </span>
         </div>
         <p id="features"></p>
-        <span class="info2">
-          <span class="info_text2">
+        <span className="info2">
+          <span className="info_text2">
             <h2>
-              <span class="gradient">$TUNA</span> FEATURES
+              <span className="gradient">$TUNA</span> FEATURES
             </h2>
             <p style={{color: "white"}}>
               $TUNA the dog is live on Solana: this little dog has a big bite,
@@ -96,7 +96,7 @@ function Audits() {
               <br />
               <br />
             </p>
-            <span class="check">
+            <span className="check">
               <span>
                 <img src={img3} alt="" />
                 <p style={{color: "white"}}>Fully Renounced</p>
@@ -115,16 +115,16 @@ function Audits() {
               </span>
             </span>
           </span>
-          <span class="img_info">
+          <span className="img_info">
             <img src={img4} alt="" />
           </span>
         </span>
         <p id="why"></p>
-        <span class="info3">
+        <span className="info3">
           <h2>
-            Why Choose <span class="gradient">$TUNA</span>
+            Why Choose <span className="gradient">$TUNA</span>
           </h2>
-          <span class="info_text3">
+          <span className="info_text3">
             <span>
               <h3>Community Owned</h3>
               <p>
@@ -157,10 +157,10 @@ function Audits() {
           </span>
         </span>
         <p id="fun"></p>
-        <span class="sol">
-          <span class="sol_text">
+        <span className="sol">
+          <span className="sol_text">
             <h2>
-              Tuna <span class="gradient">($TUNA)</span>: Elevate Your Solana
+              Tuna <span className="gradient">($TUNA)</span>: Elevate Your Solana
               Journey!
             </h2>
             <p style={{color: "white"}}>
@@ -177,7 +177,7 @@ function Audits() {
               once again you cant keep a good dog down!
               <br />
             </p>
-            <span class="sol_check">
+            <span className="sol_check">
               <span>
                 <img src={img3} alt="" />
                 <p style={{color: "white"}}>Fun Loyal Community</p>
@@ -192,17 +192,17 @@ function Audits() {
               </span>
             </span>
           </span>
-          <span class="sol_img">
+          <span className="sol_img">
             <img src={img5} alt="" />
           </span>
         </span>
         <p id="road"></p>
-        <span class="roadmap">
+        <span className="roadmap">
           <h2>
-            <span class="gradient">$TUNA</span> Roadmap
+            <span className="gradient">$TUNA</span> Roadmap
           </h2>
-          <span class="roadmap_box">
-            <span class="roadmap_text">
+          <span className="roadmap_box">
+            <span className="roadmap_text">
               <h3>
                 <span style={{color: "#ff21e1"}}>Phase 1</span>
               </h3>
@@ -233,7 +233,7 @@ function Audits() {
                 <br />
               </p>
             </span>
-            <span class="roadmap_text">
+            <span className="roadmap_text">
               <h3>
                 <span style={{color: "#ff21e1"}}>Phase 2</span>
               </h3>
@@ -250,7 +250,7 @@ function Audits() {
                 <br />· Interactive NFT game
               </p>
             </span>
-            <span class="roadmap_text">
+            <span className="roadmap_text">
               <h3>
                 <span style={{color: "#ff21e1"}}>Phase 3</span>
               </h3>
@@ -268,7 +268,7 @@ function Audits() {
                 further develop the Tuna ecosystem
               </p>
             </span>
-            <span class="roadmap_text">
+            <span className="roadmap_text">
               <h3>
                 <span style={{color: "#ff21e1"}}>Phase 4</span>
               </h3>
@@ -289,12 +289,12 @@ function Audits() {
           </span>
         </span>
         <p id="bye"></p>
-        <span class="how_bye">
+        <span className="how_bye">
           <h2>
-            How to buy <span class="gradient">$TUNA</span>
+            How to buy <span className="gradient">$TUNA</span>
           </h2>
-          <span class="box_bye">
-            <span class="how">
+          <span className="box_bye">
+            <span className="how">
               <span>
                 <h3>1. Get Phantom Wallet</h3>
                 <p>
