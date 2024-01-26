@@ -9,7 +9,7 @@ function App() {
   
   return (
     <>
-   <Header></Header>
+
   
       <Routes>
         <Route exact path="/" element={<Home/>} />

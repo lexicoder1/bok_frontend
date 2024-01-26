@@ -2,7 +2,7 @@ import "../App.css";
 
 import {tog} from "../State/context";
 import { useContext } from "react";
-
+import { HashLink as Link } from "react-router-hash-link";
 function Audits() {
   const { toggle, sliderbg, hideToggle, refTwo} =useContext(tog);
   return (
@@ -10,15 +10,15 @@ function Audits() {
       
           <div  className={`slider ${toggle}`} ref={refTwo}>
 
-                <a href="#contract" onClick={hideToggle}>Contract</a>
+                <Link to="/#contract" onClick={hideToggle}>Contract</Link>
             
-                <a href="#features" onClick={hideToggle}>Features</a>
+                <Link to="/#features" onClick={hideToggle}>Features</Link>
             
-                <a href="#why" onClick={hideToggle}>Why Tuna?</a>
-                <a href="#why" onClick={hideToggle}>Stake</a>
-                <a href="#road" onClick={hideToggle}>Roadmap</a>
+                <Link to="/#why" onClick={hideToggle}>Why Tuna?</Link>
+                <Link to="/Stake" onClick={hideToggle}>Stake</Link>
+                <Link to="/#road" onClick={hideToggle}>Roadmap</Link>
             
-                <a href="#bye" onClick={hideToggle}>How to buy</a>
+                <Link to="/#bye" onClick={hideToggle}>How to buy</Link>
                 </div>   
         
     </>

@@ -3,16 +3,14 @@ import img from "../assets/Coin-Gif.gif";
 import {tog} from "../State/context";
 import { useContext } from "react";
 import { HashLink as Link } from "react-router-hash-link";
+import { RiWallet2Line } from "react-icons/ri";
 function Audits() {
    const { toggle,hideToggle, handleToggle, refOne} =useContext(tog);
    console.log(toggle,"ddd")
   return (
     <>
     <div className="navbar-last">
-     <div className={`hamb__field ${toggle==="show"?"active":""}`}  onClick={toggle==="show"?hideToggle:handleToggle} ref={refOne}>
-                <span className="bar"></span> <span className="bar"></span>
-                <span className="bar"></span>
-              </div>
+     <RiWallet2Line style={{color:"white",width:"40px",height:"40px",cursor:"pointer" ,marginLeft:"15px"}}/>
         
         <Link to="/#" className="logo" id="logo">
               <img src={img} alt="" />
@@ -36,7 +34,8 @@ function Audits() {
               <li><Link to="/#why">Why Tuna?</Link></li>
               <li><Link to="/Stake">Stake</Link></li>
               <li><Link to="/#road">Roadmap</Link></li>
-              <li className="bye"><Link to="/#bye">How to buy</Link></li>
+              
+              <RiWallet2Line style={{color:"white",width:"40px",height:"40px",cursor:"pointer"}}/>
             </ul>
           </nav>
       </header>
